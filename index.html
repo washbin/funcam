@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WebCam Fun</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <div class="studio">
+    <div class="controls">
+      <button id="picClick">Click Photo</button>
+      <button class="changer">No Effect</button>
+      <button class="changer">Reddish Effect</button>
+      <button class="changer">RGB Split</button>
+      <button class="changer">Ghosting Effect</button>
+    </div>
+    <video autoplay="true" id="videoElement"></video>
+    <canvas id="canvas1"></canvas>
+    <hr />
+    <div id="picList"></div>
+  </div>
+  <script src="./main.js"></script>
+</body>
+
+</html>
